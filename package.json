@@ -1,0 +1,18 @@
+{
+  "name": "Proyecto-MisionTIC-Ciclo-4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SebastianBenitez558/Proyecto-MisionTIC-Ciclo-4.git",
+  "author": "Sebastian Benítez <sebastianbenitez558@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^3.5.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "graphql": "^16.2.0",
+    "mongoose": "^6.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
