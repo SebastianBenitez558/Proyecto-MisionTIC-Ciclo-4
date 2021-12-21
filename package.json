@@ -5,6 +5,9 @@
   "repository": "https://github.com/SebastianBenitez558/Proyecto-MisionTIC-Ciclo-4.git",
   "author": "Sebastian Benítez <sebastianbenitez558@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
   "dependencies": {
     "apollo-server-express": "^3.5.0",
     "cors": "^2.8.5",
