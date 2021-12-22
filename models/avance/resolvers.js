@@ -1,4 +1,5 @@
-import { ModeloAvance } from './avance';
+import { ModeloAvance } from './avance.js';
+
 const resolversAvance = {
   Query: {
     Avances: async (parent, args) => {
