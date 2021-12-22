@@ -7,9 +7,9 @@ import { ObjectiveModel } from './models/objective';
 // METODOLOGÍA ONE TO MANY #1
 const crearProyectoConObjetivos1 = async () => {
   const usuarioInicial = await UserModel.create({
-    nombre: 'Daniel',
-    apellido: 'Saldarriaga',
-    correo: 'dsl@cc.com',
+    nombre: 'Sebastian',
+    apellido: 'Benítez',
+    correo: 'sebas@ggmail.com',
     identificacion: '1234',
     rol: Enum_Rol.administrador,
     estado: Enum_EstadoUsuario.autorizado,
@@ -48,9 +48,9 @@ const consultaProyectoConObjetivos1 = async () => {
 // METODOLOGIA ONE TO MANY #2
 const crearProyectoConObjetivos2 = async () => {
   const usuarioInicial = await UserModel.create({
-    nombre: 'Daniel',
-    apellido: 'Saldarriaga',
-    correo: 'dsl@cc.com',
+    nombre: 'Sebastian',
+    apellido: 'Benítez',
+    correo: 'sebas@ggmail.com',
     identificacion: '1234',
     rol: Enum_Rol.administrador,
     estado: Enum_EstadoUsuario.autorizado,
@@ -84,9 +84,9 @@ const consultaProyectoConObjetivos2 = async () => {
 // METODOLOGIA ONE TO MANY #3
 const crearProyectoConObjetivos3 = async () => {
   const usuarioInicial = await UserModel.create({
-    nombre: 'Daniel',
-    apellido: 'Saldarriaga',
-    correo: 'dsl@cc.com',
+    nombre: 'Sebastian',
+    apellido: 'Benítez',
+    correo: 'sebas@ggmail.com',
     identificacion: '1234',
     rol: Enum_Rol.administrador,
     estado: Enum_EstadoUsuario.autorizado,
@@ -115,10 +115,10 @@ main();
 // CRUD USUARIOS
 // CREAR UN USUARIO
 // await UserModel.create({
-//   apellido: 'Saldarriaga',
+//   apellido: 'Benítez',
 //   correo: 'lksk.dflcccc.com@',
 //   identificacion: '123456789',
-//   nombre: 'daniel',
+//   nombre: 'Sebastian',
 //   rol: Enum_Rol.administrador,
 // })
 //   .then((u) => {
@@ -145,7 +145,7 @@ main();
 //   });
 // EDITAR UN USUARIO
 // await UserModel.findOneAndUpdate(
-//   { correo: 'dsl@cc.com' },
+//   { correo: 'sebas@ggmail.com' },
 //   {
 //     nombre: 'Juan',
 //     apellido: 'López',
@@ -158,7 +158,7 @@ main();
 //     console.error('Error actualizando', e);
 //   });
 // ELIMINAR UN USUARIO
-// await UserModel.findOneAndDelete({ correo: 'dsl@cc.com' })
+// await UserModel.findOneAndDelete({ correo: 'sebas@ggmail.com' })
 //   .then((u) => {
 //     console.log('usuario eliminado: ', u);
 //   })
